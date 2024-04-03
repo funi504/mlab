@@ -7,34 +7,108 @@
     <title>Nekhnguni Funanani </title>
 </head>
 <body>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif
+        }
+        .nav{
+            background-color: rgb(230, 240, 240);
+
+            height: 70px;
+            display: flex;
+            align-items: center;
+        }
+        .nav li{
+            display: inline;
+            margin-left: 50px;
+        }
+        .nav li a{
+            text-decoration: none;
+            color:rgb(99, 99, 196);
+        }
+        .logo{
+            margin-right: 800px;
+        }
+        .video-div{
+            display:flex;
+            justify-content: center;
+        }
+        .Bio{
+            display: flex;
+            flex-direction: row;
+            width:90%;
+            align-items: center;
+            margin-left: 65px;
+            height: 500px;
+
+        }
+        .Bio-text{
+            width:50%;
+            font-size: 25px;
+        }
+        .Bio-text-p{
+            font-size: 20px;
+            line-height:1.8
+        }
+        .Bio-img{
+            margin-left: auto;
+        }
+        footer{
+
+            display:flex;
+            align-items: center;
+            justify-content: center;
+            background-color: black;
+            color: white;
+        }
+        footer p {
+
+            margin: 50px;
+        }
+    </style>
     <nav>
-        <ul>
-            <li>
-                <a>logo</a>
+        <ul class="nav">
+            <li >
+                <a class="logo" href="/home.html">logo</a>
             </li>
             <li>
-                <a>Home</a>
+                <a href="/home.html">Home</a>
             </li>
             <li>
-                <a>About</a>
+                <a href="/about.html">About</a>
             </li>
             <li>
-                <a>Contact Us</a>
+                <a href="/contactUs.html">Contact Us</a>
             </li>
         </ul>
     </nav>
-
-    <div>
-        The video div
+    </br>
+    <div class="video-div">
+        <video width="90%" height="400" controls>
+            <source src="/assets/video1.mp4" type="video/mp4">
+        </video>
     </div>
-
-    <div>
-        biography
+    </br>
+    <div class="Bio">
+         <div class="Bio-text">
+            <p>Hy, my name is <span style="color:rgb(99, 99, 196);" >Nekhunguni Funanani</span></p>
+            <p class="Bio-text-p">
+                I create digital experiences </br>
+                from <span style="color:rgb(99, 99, 196);" >Visual identities</span></br>
+                Impacting <span style="color:rgb(99, 99, 196);" >websites</span></br>
+                to <span style="color:rgb(99, 99, 196);" >apps</span>
+            </p>
+            <button>read more</button>
+         </div>
+         <div class="Bio-img">
+            <img src="assets/IMG_1666.jpg" alt="Nekhunguni Funanani" width="350" height="300">
+         </div>
     </div>
-
-    <div>
-
-        footer
-    </div>
+    </br>
+    <footer>
+        <p>Author: Funanani Nekhunguni</p>
+        <p>Email: <a href="mailto:nekhungunifunanani9@gmail.com" style="color:rgb(99, 99, 196);">nekhungunifunanani9@gmail.com</a></p>
+      </footer>
 </body>
+
 </html>
