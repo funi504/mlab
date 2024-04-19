@@ -155,6 +155,7 @@ input[type=submit]:hover {
     
     font-size: 20px;
     font-weight: bold;
+    text-decoration: underline;
 
 }
 #projects{
@@ -185,6 +186,32 @@ input[type=submit]:hover {
 
 }
 
+.about-me{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+}
+#aboutMeDesc{
+    width:90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    line-height: 1.5rem;
+}
+#experience {
+    background-color: #ac4646;
+    width: 100%;
+    margin-left: 10px;
+    display: flex;
+    justify-self: start;
+}
+#experience h4{
+    margin-left: 10px;
+    color:#e6b0f3
+}
 
 
 /* Responsive styles */

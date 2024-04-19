@@ -19,18 +19,18 @@ document.addEventListener('DOMContentLoaded', setMyName);
 const data = [
     {
         name:"portfolio",
-        link:" link to portfolio",
-        desc: "this is my first portfolio website"
+        link:"https://funi.netlify.app/",
+        desc: "This is my first ever portfolio website."
     },
     {
-        name:"portfolio",
-        link:" link to portfolio",
-        desc: "this is my first portfolio website this is my first portfolio website this is my first portfolio website"
+        name:"User management System",
+        link:"https://user-management-r7wf.onrender.com",
+        desc: "A user management system built with flask , bootstrap , jinja , postgresql and redis database. "
     },
     {
-        name:"portfolio",
-        link:" link to portfolio",
-        desc: "this is my first portfolio website"
+        name:"Deep Fake Detector",
+        link:"https://github.com/funi504/deepfakeDetector",
+        desc: "A machine learning model trained to detect deep fake images , built with pytorch."
     }
 ]
 
@@ -48,8 +48,8 @@ for(let i = 0 ; i < data.length ; i++){
     <div class="name-background-image">
         <h3>${project.name}</h3>
     </div>
-    <p>Description: ${project.desc}</p>
-    <a href="${project.link}" target="_blank">Link to project</a>
+    <p>${project.desc}</p>
+    <a href="${project.link}" >Link to project</a>
     <hr>
 `;
 projectList.appendChild(projectItem);
