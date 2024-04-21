@@ -46,7 +46,7 @@ for(let i = 0 ; i < data.length ; i++){
 
     projectItem.innerHTML = `
     <div class="name-background-image">
-        <h3>${project.name}</h3>
+        <h3 style="color:rgb(99, 99, 196);">${project.name}</h3>
     </div>
     <p>${project.desc}</p>
     <a href="${project.link}" >Link to project</a>

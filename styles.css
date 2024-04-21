@@ -202,7 +202,8 @@ input[type=submit]:hover {
     line-height: 1.5rem;
 }
 #experience {
-    background-color: #ac4646;
+    background-color: #ffffff;
+    border: 1px solid rgb(204, 225, 245);
     width: 100%;
     margin-left: 10px;
     display: flex;
@@ -211,6 +212,16 @@ input[type=submit]:hover {
 #experience h4{
     margin-left: 10px;
     color:#e6b0f3
+}
+#experience-experience{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-grow: 1;
+    background-color: rgb(255, 255, 255);
+}
+#education{
+    flex-grow: 1;
 }
 
 
